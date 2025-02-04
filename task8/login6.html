@@ -11,12 +11,10 @@
             <td>
                 <center>
                     <h2>password changed succesfully</h2>
-                </center>
-                <center>
-                    <form method="get" action="./change password successfully">
-                        <input type="text" name="username" placeholder="username">
+                    <form method="get" action="./login2.html">
+                        <input type="text" name="username" placeholder="username" pattern="[A-Za-z]+" required>
                         <br><br>
-                        <input type="new password" name="new password" placeholder="new password">
+                        <input type="new password" name="new password" placeholder="new password" pattern="[(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[@#$%]).{8,16}]+" required>
                         <br><br>
                         <input type="submit" value="login">
                         <br>

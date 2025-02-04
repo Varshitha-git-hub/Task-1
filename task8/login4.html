@@ -6,16 +6,16 @@
     <title>Forgot.html</title>
 </head>
 <body>
-    <table border="1" cellpadding="0" cellspacing="0">
+    <table border="1" cellpadding="5" cellspacing="0">
         <tr>
             <td>
                 <center>
-                    <form method="get" action="./forgot.html">
-                        <input type="text" name="username" placeholder="username" required>
+                    <form method="get" action="./login6.html">
+                        <input type="text" name="username" placeholder="username" pattern="[A-Za-z]+" required>
                         <br><br>
-                        <input type="new password" name="new password" placeholder="new holder" required>
+                        <input type="new password" name="new password" placeholder="new holder" pattern="[(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[@#$%]).{8,16}]+"  required>
                         <br><br>
-                        <input type="otp" name="otp" placeholder="otp" required>
+                        <input type="otp" name="otp" placeholder="otp"  pattern="[0-9]+" required>
                         <br><br>
                         <p>otp:9676</p>
                         <br><br>

@@ -6,26 +6,20 @@
     <title>Register.html</title>
 </head>
 <body>
-    <table border="1" cellpadding="0" cellspacing="0">
+    <table border="1" cellpadding="5" cellspacing="0">
         <tr>
             <td>
                 <center>
-
-                    
-
-                </center>
-                <center>
-                    <form method="get" action="./register.html">
-                        <input type="text" name="username" placeholder="username" required>
+                    <form method="get" action="./login5.html">
+                        <input type="text" name="username" placeholder="username" pattern="[A-Za-z]+" required>
                         <br><br>
-                        <input type="email" name="email" placeholder="email" required>
+                        <input type="email" name="email" placeholder="email" pattern="[A-Za-z]+" required>
                         <br><br>
-
-                        <input type="password" name="password" placeholder="password" required>
+                        <input type="password" name="password" placeholder="password"  pattern="[(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[@#$%]).{8,16}]+" required>
                         <br><br>
                         <input type="submit" value="register">
                         <br><br>
-                        <a href="./login1.html" target="-blank"><h3 style="margin-right:8%;"><i>login</i></h3></a>
+                        <a href="./login1.html" target="_blank"><h3 style="margin-right:8%;"><i>login</i></h3></a>
 
                     </form>
                 </center>
