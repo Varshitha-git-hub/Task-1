@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Details</title>
+</head>
+
+<body>
+
+    <center>
+        <h1>TELANGANA STATE ROAD TRANSPORT CORPORATION</h1>
+        <h2>GENERAL BUS PASS APPLICATION</h2>
+    </center>
+    <form method="get" action="./application.html">
+        <fieldset>
+            <legend>Application Details</legend>
+            <label for="name">Name:</label>
+            <input type="text" name="name" pattern="[(?.=*[a-z]+)(?.=*[A-Z]+)]" required>
+            &nbsp &nbsp
+
+
+            <label for="name">Father's/Guardians Name:</label>
+            <input type="text" name="father/guadrain name" pattern="[(?.=*[a-z]+)(?.=*[A-Z]+)]" required>
+            <br><br>
+            <label for="date of birth">Date of Birth:</label>
+            <input type="date" name="date of birth" required>
+            &nbsp &nbsp
+
+            <label for="Gender">Gender:</label>
+            <input type="radio" name="name" value="female" id="gender" required>female
+            <input type="radio" name="name" value="male" id="gender" required>male
+
+            <br><br>
+            <label for="AdharNumber">AdharNumber:</label>
+            <input type="text" name="AdharNumber" pattern="[0-9]{12}" required>
+            &nbsp &nbsp
+            <label for="Whatsapp Number">Whatapp Number:</label>
+            <input type="text" name="Number" pattern="[\+91[6789][0-9]{9}]" required>
+            <br><br>
+            <label for="Email id">Email id:</label>
+            <input type="mail" name="Emailid" required>
+            &nbsp &nbsp
+            <label for="photo">Photo:</label>
+            <input type="file" id="photo" name="file" required>
+        </fieldset>
+        <fieldset>
+            <legend>Resindetial Address Details</legend>
+            <label for="Applicant's Address">Applicant's Address:</label>
+            <textarea id="Address" name="Address" pattern="[a-zA-Z0-9.,/-\()]{20}" required></textarea>
+            <br><br>
+            &nbsp &nbsp
+            <label for="District">District:</label>
+            <select name="District" id="District">
+                <option value=""></option>
+                <option value="Hyderabad">Hyderabad</option>
+            </select>
+            <br><br>
+            <label for="Mandal">Mandal:</label>
+            <select name="Mandal" id="Mandal">
+                <option value=""></option>
+                <option value="Hyderabad">Hyderabad</option>
+            </select>
+            <br><br>
+            <label for="Village">Village:</label>
+            <select name="Village" id="Mandal">
+                <option value="Hyderabad">Hyderabad</option>
+            </select>
+            <br><br>
+            <label for="Pincode">Pincode:</label>
+            <input type="text" name="pincode" placeholder="pincode">
+        </fieldset>
+        <fieldset>
+            <legend>Pass Type Details:</legend>
+            <label for="City">City:</label>
+            <select name="Hyderabad" id="Mandal">
+                <option value=""></option>
+                <option value="Hyderabad">Hyderabad</option>
+            </select>
+            <label for="Pass Type">Pass Type:</label>
+            <select name="passtype" id="passtype">
+                <option value="select">----select----</option>
+            </select>
+
+
+        </fieldset>
+        <fieldset>
+            <legend>Mode of Payment & Pass Collection</legend>
+            <label for="payment mode">payment mode</label>
+            <select name="payment mode" id="payment mode">
+                <option value="payment mode">----payment mode----</option>
+            </select>
+            <br><br>
+            <label for="pass delivery mode">pass delivery mode</label>
+            <select name="pass delivery mode" id="pass delivery mode">
+                <option value="pass delivery mode">----pass delivery mode----</option>
+            </select>
+            <br><br>
+            <label for="center">center at which you want to collect pass</label>
+            <select name="center" id="center">
+                <option value="select">----select----</option>
+            </select>
+        </fieldset>
+        <center>
+            <img src="./captcha.png" width="200">
+            <br>
+            <input type="text" name="captcha" pattern="1Cc7yy" required>
+            <br>
+            <input type="submit">
+        </center>
+    </form>
+
+</body>
+
+</html>
