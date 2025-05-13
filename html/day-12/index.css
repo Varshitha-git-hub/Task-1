@@ -1,0 +1,26 @@
+
+
+CSS Code (in style.css file):
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+#myCanvas {
+  border: 1px solid black;
+  background-color: #f0f0f0;
+}
+/* 
+
+How it works:
+
+1. We create a canvas element with an ID of "myCanvas" and specify its width and height.
+2. We use JavaScript to get a reference to the canvas element and then use the getContext() method to get a 2D drawing context.
+3. We use various methods such as fillRect(), arc(), and fillText() to draw shapes and text on the canvas.
+4. We style the canvas element using CSS to add a border and background color.
+
+Benefits:
+
+1. Dynamic graphics: The canvas element allows you to create dynamic graphics that can be manipulated using JavaScript.
+2. Customizable: You can customize the appearance of the canvas element using CSS and JavaScript.
+3. Interactive: You can create interactive graphics that respond to user input using JavaScript event handlers. */

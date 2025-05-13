@@ -1,0 +1,97 @@
+HTML SVG
+HTML SVG (Scalable Vector Graphics) is used to create vector graphics that can be scaled up or down without losing any quality. SVG is an XML-based language that allows you to create graphics, logos, and icons.
+
+Basic Usage
+To use SVG in HTML, you can use the svg element.
+
+
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" fill="red" />
+</svg>
+
+
+SVG Elements
+1. circle: Used to create a circle.
+2. rect: Used to create a rectangle.
+3. line: Used to create a line.
+4. text: Used to create text.
+
+Attributes
+1. width and height: Specify the width and height of the SVG element.
+2. fill: Specifies the fill color of the SVG element.
+3. stroke: Specifies the stroke color of the SVG element.
+4. stroke-width: Specifies the stroke width of the SVG element.
+
+Real-time Examples
+1. Creating a circle: You can use the circle element to create a circle.
+
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" fill="red" />
+</svg>
+
+
+2. Creating a rectangle: You can use the rect element to create a rectangle.
+
+<svg width="100" height="100">
+  <rect x="10" y="10" width="80" height="80" fill="blue" />
+</svg>
+
+
+3. Creating text: You can use the text element to create text.
+
+<svg width="200" height="100">
+  <text x="10" y="50" font-size="24" fill="black">Hello, World!</text>
+</svg>
+
+
+CSS Styling
+You can style SVG elements using CSS.
+
+
+svg {
+  border: 1px solid black;
+}
+
+circle {
+  fill: green;
+}
+
+
+Questions and Answers
+1. Q: What is SVG?
+    - A: SVG stands for Scalable Vector Graphics, which is used to create vector graphics that can be scaled up or down without losing any quality.
+
+2. Q: How do you create a circle in SVG?
+    - A: You can use the circle element to create a circle in SVG.
+
+3. Q: Can you style SVG elements using CSS?
+    - A: Yes, you can style SVG elements using CSS.
+
+4. Q: What are the benefits of using SVG?
+    - A: SVG allows you to create scalable graphics that can be used in a variety of contexts, including logos, icons, and graphics.
+
+Full Example:
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML SVG</title>
+  <style>
+    svg {
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+  <svg width="100" height="100">
+    <circle cx="50" cy="50" r="40" fill="red" />
+  </svg>
+  <svg width="100" height="100">
+    <rect x="10" y="10" width="80" height="80" fill="blue" />
+  </svg>
+  <svg width="200" height="100">
+    <text x="10" y="50" font-size="24" fill="black">Hello, World!</text>
+  </svg>
+</body>
+</html>

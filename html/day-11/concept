@@ -1,0 +1,76 @@
+HTML Audio and Video Elements
+HTML provides two elements for embedding multimedia content: audio and video. These elements allow you to add audio and video content to your web pages.
+
+HTML Audio Element
+The audio element is used to embed audio content in a web page. You can specify the source of the audio file using the src attribute.
+
+
+<audio controls>
+  <source src="audio.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
+
+
+Attributes of Audio Element
+1. controls: Displays audio controls, such as play, pause, and volume.
+2. autoplay: Automatically plays the audio when the page loads.
+3. loop: Loops the audio playback.
+
+HTML Video Element
+The video element is used to embed video content in a web page. You can specify the source of the video file using the src attribute.
+
+
+<video width="640" height="480" controls>
+  <source src="video.mp4" type="video/mp4">
+  Your browser does not support the video element.
+</video>
+
+
+Attributes of Video Element
+1. controls: Displays video controls, such as play, pause, and volume.
+2. autoplay: Automatically plays the video when the page loads.
+3. loop: Loops the video playback.
+4. width and height: Specifies the width and height of the video player.
+
+Real-time Examples
+1. Embedding an audio file: You can use the audio element to embed an audio file on your web page.
+
+<audio controls>
+  <source src="song.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
+
+
+2. Embedding a video file: You can use the video element to embed a video file on your web page.
+
+<video width="640" height="480" controls>
+  <source src="movie.mp4" type="video/mp4">
+  Your browser does not support the video element.
+</video>
+
+
+CSS Styling
+You can style the audio and video elements using CSS. For example, you can change the width and height of the video player.
+
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+
+Questions and Answers
+1. *Q: What is the purpose of the audio element?*
+    - A: The audio element is used to embed audio content in a web page.
+
+2. *Q: What is the purpose of the video element?*
+    - A: The video element is used to embed video content in a web page.
+
+3. Q: How do you specify the source of an audio or video file?
+    - A: You can specify the source of an audio or video file using the src attribute.
+
+4. *Q: What are the benefits of using the audio and video elements?*
+    - A: The audio and video elements allow you to embed multimedia content in a web page, enhancing the user experience and providing a more engaging and interactive experience.
+
+5. *Q: Can you style the audio and video elements using CSS?*
+    - A: Yes, you can style the audio and video elements using CSS, such as changing the width and height of the video player.

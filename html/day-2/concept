@@ -1,0 +1,90 @@
+
+HTML (Day 2)
+1. HTML Links
+- Definition: A hyperlink is a link from one web page to another.
+- Explanation: The <a> element is used to create a hyperlink to another web page or to an email address.
+- Example: <a href="https://www.google.com" title="Google Homepage">Visit Google</a>
+- Attributes:
+    - href: Specifies the URL of the linked document.
+    - title: Specifies the title of the linked document.
+
+2. HTML Images
+- Definition: An image is a graphic representation of an object or concept.
+- Explanation: The <img> element is used to add an image to a web page.
+- Example: <img src="image.jpg" alt="An image on the web page">
+- Attributes:
+    - src: Specifies the URL of the image.
+    - alt: Specifies the alternative text for the image.
+
+3. HTML Lists
+- Definition: A list is a collection of items that are displayed in a specific order.
+- Explanation: The <ul> element is used to create an unordered list, while the <ol> element is used to create an ordered list.
+- Example: <ul> <li>Coffee</li> <li>Tea</li> <li>Milk</li> </ul>
+- Elements:
+    - <ul>: Unordered list element.
+    - <ol>: Ordered list element.
+    - <li>: List item element.
+
+4. HTML Tables
+- Definition: A table is a structured set of data that is organized into rows and columns.
+- Explanation: The <table> element is used to create a table.
+- Example: <table> <tr> <td>Name</td> <td>Age</td> </tr> <tr> <td>John Doe</td> <td>30</td> </tr> </table>
+- Elements:
+    - <table>: Table element.
+    - <tr>: Table row element.
+    - <td>: Table data element.
+
+CSS (Day 2)
+1. CSS Colors
+- Definition: Color is a property that is used to specify the color of an element's background, text, or border.
+- Explanation: Colors can be specified using RGB (Red, Green, Blue) or HSL (Hue, Saturation, Lightness) values.
+- Example: body { background-color: rgb(255, 0, 0); }
+- Properties:
+    - background-color: Specifies the background color of an element.
+    - color: Specifies the text color of an element.
+
+2. CSS Fonts
+- Definition: Font is a property that is used to specify the font family, size, and style of an element's text.
+- Explanation: Font families can be specified using generic family names (e.g. serif, sans-serif) or specific font family names (e.g. Arial, Times New Roman).
+- Example: h1 { font-family: Arial; font-size: 24px; font-style: italic; }
+- Properties:
+    - font-family: Specifies the font family of an element's text.
+    - font-size: Specifies the font size of an element's text.
+    - font-style: Specifies the font style of an element's text.
+
+3. CSS Text Alignment
+- Definition: Text alignment is a property that is used to specify the alignment of an element's text.
+- Explanation: Text can be aligned to the left, center, or right.
+- Example: p { text-align: center; }
+- Properties:
+    - text-align: Specifies the text alignment of an element.
+
+4. CSS Background Images
+- Definition: Background image is a property that is used to specify the background image of an element.
+- Explanation: Background images can be specified using the url() function.
+- Example: body { background-image: url('image.jpg'); background-repeat: no-repeat; }
+- Properties:
+    - background-image: Specifies the background image of an element.
+    - background-repeat: Specifies the repeat behavior of the background image.
+
+
+
+HTML Q&A:
+1. *Q: What is the purpose of the href attribute in the <a> element?*
+A: The href attribute specifies the URL of the linked document.
+2. *Q: What is the difference between an unordered list (<ul>) and an ordered list (<ol>) in HTML?*
+A: An unordered list is a list of items that do not have a specific order, while an ordered list is a list of items that have a specific order.
+3. *Q: What is the purpose of the alt attribute in the <img> element?*
+A: The alt attribute specifies the alternative text for the image.
+4. *Q: What is the purpose of the <table> element in HTML?*
+A: The <table> element is used to create a table.
+
+CSS Q&A:
+1. *Q: What is the purpose of the background-color property in CSS?*
+A: The background-color property specifies the background color of an element.
+2. *Q: What is the difference between the font-family and font-size properties in CSS?*
+A: The font-family property specifies the font family of an element's text, while the font-size property specifies the font size of an element's text.
+3. *Q: What is the purpose of the text-align property in CSS?*
+A: The text-align property specifies the text alignment of an element.
+4. *Q: What is the purpose of the background-image property in CSS?*
+A: The background-image property specifies the background image of an element.

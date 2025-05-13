@@ -1,0 +1,127 @@
+HTML Accessibility
+HTML accessibility refers to the practice of making web pages accessible to all users, including those with disabilities. This includes providing alternative text for images, using semantic HTML elements, and ensuring that web pages can be navigated using a keyboard.
+
+Why is Accessibility Important?
+1. Equal Access: Accessibility ensures that all users have equal access to information and functionality on the web.
+2. Improved User Experience: Accessibility features can improve the user experience for all users, not just those with disabilities.
+3. Compliance with Laws and Regulations: Many countries have laws and regulations that require web pages to be accessible.
+
+HTML Accessibility Features
+1. Alternative Text for Images: Provides a text description of an image for users who cannot see it.
+
+<img src="image.jpg" alt="A description of the image">
+
+
+2. Semantic HTML Elements: Provides meaning to the structure of a web page, making it easier for screen readers to navigate.
+
+<header>
+  <h1>Welcome to My Website</h1>
+</header>
+
+
+3. ARIA Attributes: Provides additional information about the structure and functionality of web pages, making it easier for screen readers to understand.
+
+<button aria-label="Close" onclick="closeModal()">X</button>
+
+
+4. Keyboard Navigation: Ensures that web pages can be navigated using a keyboard, making it easier for users who cannot use a mouse.
+
+<a href="#" tabindex="0">Link</a>
+
+
+Real-time Examples
+1. Providing Alternative Text for Images:
+
+<img src="image.jpg" alt="A description of the image">
+
+
+2. Using Semantic HTML Elements:
+
+<header>
+  <h1>Welcome to My Website</h1>
+</header>
+<main>
+  <section>
+    <h2>About Us</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </section>
+</main>
+
+
+3. Using ARIA Attributes:
+
+<button aria-label="Close" onclick="closeModal()">X</button>
+<div role="dialog" aria-labelledby="dialog-title">
+  <h2 id="dialog-title">Modal Dialog</h2>
+  <p>This is a modal dialog.</p>
+</div>
+
+
+CSS Styling
+You can style accessible elements using CSS.
+
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+Questions and Answers
+1. Q: What is accessibility in HTML?
+    - A: Accessibility in HTML refers to the practice of making web pages accessible to all users, including those with disabilities.
+
+2. Q: Why is accessibility important?
+    - A: Accessibility is important because it ensures that all users have equal access to information and functionality on the web.
+
+3. Q: How do you provide alternative text for images?
+    - A: You can provide alternative text for images using the alt attribute.
+
+Full Example:
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Accessibility</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Website</h1>
+  </header>
+  <main>
+    <section>
+      <h2>About Us</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <img src="image.jpg" alt="A description of the image">
+    </section>
+  </main>
+  <button aria-label="Close" onclick="closeModal()">X</button>
+  <div role="dialog" aria-labelledby="dialog-title">
+    <h2 id="dialog-title">Modal Dialog</h2>
+    <p>This is a modal dialog.</p>
+  </div>
+</body>
+</html>
+
+
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}

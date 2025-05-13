@@ -1,0 +1,115 @@
+HTML Semantic Elements
+HTML semantic elements are used to define the structure and meaning of web pages. They help search engines and browsers understand the content and layout of a page.
+
+HTML Semantic Elements
+1. <header>: Defines the header section of a page or section.
+2. <nav>: Defines a navigation menu.
+3. <main>: Defines the main content section of a page.
+4. <section>: Defines a self-contained section of related content.
+5. <article>: Defines an independent piece of content, such as a blog post.
+6. <aside>: Defines content that is related to the main content, but not essential.
+7. <footer>: Defines the footer section of a page or section.
+
+HTML Code Example
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Semantic Elements</title>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Website</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>About Us</h2>
+      <p>This is a section about our company.</p>
+    </section>
+    <article>
+      <h2>Blog Post</h2>
+      <p>This is a blog post about our latest news.</p>
+    </article>
+    <aside>
+      <h2>Related Links</h2>
+      <ul>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+      </ul>
+    </aside>
+  </main>
+  <footer>
+    <p>&copy; 2023 My Website</p>
+  </footer>
+</body>
+</html>
+
+
+CSS Code Example
+
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+section, article, aside {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
+
+
+Real-time Examples
+1. Header Element: A website's logo and navigation menu are typically placed in the <header> element.
+2. Main Element: The main content of a webpage, such as articles, images, and videos, are placed in the <main> element.
+3. Section Element: A webpage can be divided into sections, such as a hero section, about section, and contact section, using the <section> element.
+
+Questions and Answers
+Q1: What is the purpose of the <header> element?
+A1: The <header> element defines the header section of a page or section, typically containing the logo, navigation menu, and other introductory content.
+
+Q2: What is the difference between <section> and <article> elements?
+A2: The <section> element defines a self-contained section of related content, while the <article> element defines an independent piece of content, such as a blog post.
+
+Q3: How can you use the <aside> element?
+A3: The <aside> element can be used to define content that is related to the main content, but not essential, such as a sidebar or a list of related links.
+
+Q4: What is the purpose of the <footer> element?
+A4: The <footer> element defines the footer section of a page or section, typically containing copyright information, contact details, and other secondary content.
+
+Q5: Can you use multiple <header> and <footer> elements on a single webpage?
+A5: Yes, you can use multiple <header> and <footer> elements on a single webpage, each defining a specific section or subsection.

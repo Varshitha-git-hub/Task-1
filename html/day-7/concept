@@ -1,0 +1,116 @@
+HTML Block-level and Inline Elements
+HTML elements can be classified into two main categories: block-level elements and inline elements.
+
+HTML Block-level Elements
+Block-level elements occupy the full width of their parent element and start on a new line. Here are some common block-level elements:
+
+1. <p>: Defines a paragraph of text.
+2. <h1>-<h6>: Defines headings of different levels.
+3. <ul>: Defines an unordered list.
+4. <ol>: Defines an ordered list.
+5. <div>: Defines a division or section in a document.
+
+HTML Inline Elements
+Inline elements occupy only the space needed for their content and do not start on a new line. Here are some common inline elements:
+
+1. <span>: Defines a section of text or an inline element.
+2. <a>: Defines a hyperlink.
+3. <img>: Defines an image.
+4. <input>: Defines an input field.
+5. <label>: Defines a label for an input element.
+
+HTML Code Example
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Block-level and Inline Elements</title>
+</head>
+<body>
+  <!-- Block-level elements -->
+  <h1>Heading</h1>
+  <p>This is a paragraph of text.</p>
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+  <div style="background-color: #f2f2f2; padding: 20px;">
+    This is a div element with some styles.
+  </div>
+
+  <!-- Inline elements -->
+  <p>This is a <span style="color: red;">span element</span> inside a paragraph.</p>
+  <p><a href="#">This is a hyperlink</a> inside a paragraph.</p>
+  <img src="image.jpg" alt="An image">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name">
+</body>
+</html>
+
+
+CSS Code Example
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: blue;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+div {
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+span {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+
+Real-time Examples
+1. Block-level elements: Block-level elements are used to define the structure of a webpage, such as headings, paragraphs, and lists.
+2. Inline elements: Inline elements are used to add styles or functionality to specific parts of text or other elements, such as hyperlinks, images, and input fields.
+
+Questions and Answers
+Q1: What is the difference between block-level and inline elements?
+A1: Block-level elements occupy the full width of their parent element and start on a new line, while inline elements occupy only the space needed for their content and do not start on a new line.
+
+Q2: Can you use block-level elements inside inline elements?
+A2: No, block-level elements cannot be used directly inside inline elements. However, inline elements can be used inside block-level elements.
+
+Q3: How can you style block-level and inline elements using CSS?
+A3: You can style block-level and inline elements using CSS by selecting the elements and applying styles such as colors, fonts, padding, margin, and borders.
+
+Q4: What are some common use cases for the <span> element?
+A4: The <span> element is commonly used to add styles or functionality to specific parts of text, such as highlighting important keywords or adding tooltips.
+
+Q5: Can you use the <img> element to add images to a webpage?
+A5: Yes, the <img> element is used to add images to a webpage. You can specify the source of the image using the src attribute and add alternative text using the alt attribute.

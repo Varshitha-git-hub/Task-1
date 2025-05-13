@@ -1,0 +1,18 @@
+body {
+  background-color: rgb(133, 239, 27);
+}
+
+h1 {
+  font-family: Arial;
+  font-size: 24px;
+  font-style: italic;
+}
+
+p {
+  text-align: center;
+}
+
+body {
+  background-image: url('image.jpg');
+  background-repeat: no-repeat;
+}

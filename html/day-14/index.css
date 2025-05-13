@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin: 20px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+/* 
+How it works:
+
+1. We create a basic HTML structure with a header, navigation, main content, and a button.
+2. We add accessibility features such as alternative text for images and ARIA attributes for the button and dialog.
+3. We style the HTML elements using CSS to improve the layout and design.
+
+Benefits:
+
+1. Improved accessibility for users with disabilities.
+2. Better user experience for all users.
+3. Compliance with laws and regulations regarding accessibility. */

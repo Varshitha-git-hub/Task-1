@@ -1,0 +1,24 @@
+Here are some potential questions and answers based on the Instagram-like page code:
+
+*Q1: What is the purpose of the .navbar class in the CSS code?*
+A1: The .navbar class is used to style the navigation bar at the top of the page, including its background color, border, and layout.
+
+Q2: How do you add a new story to the stories section?
+A2: To add a new story, you would add a new .story div inside the .stories div, including an img tag for the story image and a p tag for the username.
+
+*Q3: What is the purpose of the .post-icons class?*
+A3: The .post-icons class is used to style the icons for like, comment, and share below each post.
+
+Q4: How do you make the right sidebar visible on larger screens?
+A4: The right sidebar is made visible on larger screens using a media query (@media (min-width: 1000px)) that sets display: block on the .right-side div.
+
+*Q5: What is the purpose of the flex property in the CSS code?*
+A5: The flex property is used to layout elements in a flexible way, allowing them to adapt to different screen sizes and orientations.
+
+Q6: How do you add a new post to the feed?
+A6: To add a new post, you would add a new .post div inside the .feed div, including a .post-header, .post-img, .post-icons, and .post-caption sections.
+
+*Q7: What is the purpose of the .suggestions class?*
+A7: The .suggestions class is used to style the suggestions section in the right sidebar, including the text "Suggestions for you".
+
+Let me know if you'd like me to add more questions or answers!

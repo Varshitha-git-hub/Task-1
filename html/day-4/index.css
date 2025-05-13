@@ -1,0 +1,26 @@
+/* CSS Styles */
+
+p {
+  color: rgb(43, 199, 113);
+  font-size: 24px;
+}
+
+header {
+  background-color: rgb(26, 222, 20);
+  padding: 20px;
+}
+
+nav {
+  background-color: rgb(31, 168, 214);
+  padding: 20px;
+}
+
+main {
+  background-color: rgb(190, 22, 148);
+  padding: 20px;
+}
+
+footer {
+  background-color: rgb(24, 123, 176);
+  padding: 20px;
+}

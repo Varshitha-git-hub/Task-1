@@ -1,0 +1,88 @@
+CSS Properties and Values
+CSS (Cascading Style Sheets) is used to control the layout and appearance of web pages. Here are some basic CSS properties and values:
+
+CSS Properties
+1. color: Specifies the color of the text.
+Example: color: red; (sets the text color to red)
+2. background-color: Specifies the background color of the element.
+Example: background-color: #f2f2f2; (sets the background color to a light gray)
+3. font-size: Specifies the font size of the text.
+Example: font-size: 20px; (sets the font size to 20 pixels)
+
+CSS Values
+1. Color Names: You can use color names like red, blue, green, etc.
+Example: color: blue; (sets the text color to blue)
+2. Hexadecimal Colors: You can use hexadecimal codes like #FF0000, #0000FF, etc.
+Example: background-color: #FF0000; (sets the background color to red)
+3. Length Units: You can use length units like px, em, rem, etc.
+Example: font-size: 2em; (sets the font size to 2 times the parent element's font size)
+
+HTML and CSS Code Example
+HTML Code
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Properties and Values</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to CSS</h1>
+  <p>This is a paragraph of text.</p>
+  <div class="box">This is a box with a background color.</div>
+  <div class="red-text">This text is red.</div>
+  <div class="large-text">This text is large.</div>
+</body>
+</html>
+
+
+CSS Code (in style.css file)
+
+body {
+  font-size: 20px;
+  color: #333;
+}
+
+h1 {
+  color: blue;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.box {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.red-text {
+  color: red;
+}
+
+.large-text {
+  font-size: 30px;
+}
+
+
+Real-time Examples
+1. Changing Text Color: color: green; can be used to change the text color to green.
+2. Setting Background Color: background-color: #000; can be used to set the background color to black.
+3. Increasing Font Size: font-size: 24px; can be used to increase the font size to 24 pixels.
+
+Questions and Answers
+Q1: What is the purpose of the color property in CSS?
+A1: The color property is used to specify the color of the text.
+
+Q2: What is the difference between px and em units in CSS?
+A2: px is an absolute unit that represents pixels, while em is a relative unit that represents the font size of the parent element.
+
+Q3: How can you set the background color of an element to red using hexadecimal color code?
+A3: You can use background-color: #FF0000; to set the background color to red.
+
+Q4: What is the purpose of the font-size property in CSS?
+A4: The font-size property is used to specify the size of the font.
+
+Q5: Can you use color names like red, blue, etc. in CSS?
+A5: Yes, you can use color names like red, blue, etc. in CSS to specify colors.

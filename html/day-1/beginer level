@@ -1,0 +1,52 @@
+HTML (Day 1)
+1. Introduction to HTML
+- Definition: HTML (HyperText Markup Language) is a standard markup language used to create web pages.
+- Explanation: HTML is used to structure and organize content on the web, including text, images, videos, and more.
+
+2. Basic HTML Structure
+- Definition: The basic HTML structure consists of a declaration, a root element, a head section, and a body section.
+- Explanation: The declaration (<!DOCTYPE html>) specifies the document type, the root element (<html>) contains all the other elements, the head section (<head>) contains metadata about the document, and the body section (<body>) contains the content of the HTML document.
+
+3. HTML Headings
+- Definition: HTML headings are used to define headings of different levels.
+- Explanation: There are six levels of headings in HTML, ranging from <h1> (main heading) to <h6> (sub-sub-sub-subheading).
+
+4. HTML Paragraphs
+- Definition: HTML paragraphs are used to define a paragraph of text.
+- Explanation: The <p> element is used to contain a paragraph of text, and can be styled using CSS.
+
+CSS (Day 1)
+1. Introduction to CSS
+- Definition: CSS (Cascading Style Sheets) is a styling language used to control the layout and appearance of web pages.
+- Explanation: CSS is used to separate presentation from structure, making it easier to maintain and update web pages.
+
+2. Basic CSS Syntax
+- Definition: The basic CSS syntax consists of a selector, a property, and a value.
+- Explanation: The selector identifies the element(s) to be styled, the property specifies the aspect of the element to be styled, and the value specifies the style to be applied.
+
+3. CSS Colors
+- Definition: CSS colors are used to specify the color of text, backgrounds, and other elements.
+- Explanation: Colors can be specified using color names (e.g. "red", "blue"), hexadecimal values (e.g. "#FF0000", "#0000FF"), or RGB values (e.g. "rgb(255, 0, 0)", "rgb(0, 0, 255)).
+
+4. CSS Backgrounds
+- Definition: CSS backgrounds are used to specify the background color or image of an element.
+- Explanation: The background-color property is used to specify the background color of an element, while the background-image property is used to specify the background image.
+
+Answers to Questions
+Q: What does HTML stand for?
+A: HyperText Markup Language
+
+Q: What is the purpose of the <!DOCTYPE html> declaration?
+A: To declare the document type as HTML5
+
+Q: What is the difference between <h1> and <h2>?
+A: <h1> is a main heading, while <h2> is a subheading
+
+Q: What is the purpose of the body element?
+A: To contain the content of the HTML document
+
+Q: What is the basic syntax of a CSS rule?
+A: selector { property: value; }
+
+Q: What is the purpose of the background-color property?
+A: To set the background color of an element

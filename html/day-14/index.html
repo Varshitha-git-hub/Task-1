@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Accessibility</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Website</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>About Us</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <img src="image.jpg" alt="A description of the image">
+    </section>
+  </main>
+  <button aria-label="Close" onclick="closeModal()">X</button>
+  <div role="dialog" aria-labelledby="dialog-title">
+    <h2 id="dialog-title">Modal Dialog</h2>
+    <p>This is a modal dialog.</p>
+  </div>
+</body>
+</html>
+

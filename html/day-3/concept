@@ -1,0 +1,162 @@
+Here are the concepts for Day 3 as a fresher:
+
+HTML (Day 3)
+1. HTML Forms
+- What is it?: A way to collect information from users.
+- How does it work?: Users fill out fields, and the information is sent to a server.
+- Important elements:
+    - <form>: The container for the form.
+    - <input>: Where users enter information.
+    - <label>: Text that describes the input field.
+- Example code:
+
+<form>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+
+2. HTML Frames
+- What is it?: A way to divide a webpage into multiple sections.
+- How does it work?: Each section can have its own webpage or content.
+- Important elements:
+    - <frameset>: The container for the frames.
+    - <frame>: Each individual frame.
+    - <noframes>: Text to display if frames are not supported.
+- Example code:
+
+<frameset cols="25%, 75%">
+  <frame src="frame1.html">
+  <frame src="frame2.html">
+  <noframes>
+    <p>Your browser does not support frames.</p>
+  </noframes>
+</frameset>
+
+
+3. HTML Scripts
+- What is it?: A way to add interactivity to a webpage.
+- How does it work?: Scripts are executed by the web browser.
+- Important elements:
+    - <script>: The container for the script.
+- Example code:
+
+<script src="script.js"></script>
+
+
+4. HTML Entities
+- What is it?: Special characters that are used in HTML.
+- Examples:
+    - & : Ampersand
+    - &lt; : Less-than sign
+    - &gt; : Greater-than sign
+    - &quot; : Quotation mark
+- Example code:
+
+<p>The price is &quot;$10&quot;</p>
+
+
+CSS (Day 3)
+1. CSS Borders
+- What is it?: A line around an element.
+- How does it work?: You can customize the style, width, and color.
+- Important properties:
+    - border: Sets the border style, width, and color.
+    - border-style: Sets the border style.
+    - border-width: Sets the border width.
+    - border-color: Sets the border color.
+- Example code:
+
+p {
+  border: 1px solid black;
+}
+
+
+2. CSS Margins
+- What is it?: Space between elements.
+- How does it work?: You can customize the size of the margin.
+- Important properties:
+    - margin: Sets the margin size.
+    - margin-top: Sets the top margin size.
+    - margin-right: Sets the right margin size.
+    - margin-bottom: Sets the bottom margin size.
+    - margin-left: Sets the left margin size.
+- Example code:
+
+p {
+  margin: 20px;
+}
+
+
+3. CSS Padding
+- What is it?: Space between content and the border.
+- How does it work?: You can customize the size of the padding.
+- Important properties:
+    - padding: Sets the padding size.
+    - padding-top: Sets the top padding size.
+    - padding-right: Sets the right padding size.
+    - padding-bottom: Sets the bottom padding size.
+    - padding-left: Sets the left padding size.
+- Example code:
+
+p {
+  padding: 20px;
+}
+
+
+4. CSS Dimensions
+What is it?
+The size of an element, which can be customized using various properties.
+
+How does it work?
+You can set the width and height of an element, as well as limit its maximum and minimum size.
+
+Important Properties:
+- width: Sets the width of an element.
+- height: Sets the height of an element.
+- max-width: Sets the maximum width of an element, preventing it from becoming too wide.
+- max-height: Sets the maximum height of an element, preventing it from becoming too tall.
+- min-width: Sets the minimum width of an element, ensuring it doesn't become too narrow.
+- min-height: Sets the minimum height of an element, ensuring it doesn't become too short.
+
+Example Code:
+
+p {
+  width: 200px;
+  height: 100px;
+  max-width: 300px;
+  max-height: 200px;
+  min-width: 100px;
+  min-height: 50px;
+}
+
+     Here are some Q&A for Day 3:
+
+HTML (Day 3)
+*Q: What is the purpose of the <form> element?*
+A: The <form> element is used to collect user input, such as text, numbers, and files.
+
+*Q: What is the difference between <frameset> and <frame>?*
+A: <frameset> is the container for the frames, while <frame> is each individual frame.
+
+*Q: What is the purpose of the <script> element?*
+A: The <script> element is used to add interactivity to a web page, such as animations, games, and dynamic effects.
+
+Q: What is the purpose of HTML entities?
+A: HTML entities are used to represent special characters, such as ampersands, less-than signs, and quotation marks.
+
+CSS (Day 3)
+*Q: What is the purpose of the border property?*
+A: The border property is used to add a border around an element, such as a paragraph or image.
+
+*Q: What is the difference between margin and padding?*
+A: margin is the space between elements, while padding is the space between content and the border.
+
+*Q: What is the purpose of the width and height properties?*
+A: The width and height properties are used to specify the size of an element.
+
+*Q: What is the purpose of the max-width and max-height properties?*
+A: The max-width and max-height properties are used to specify the maximum size of an element.

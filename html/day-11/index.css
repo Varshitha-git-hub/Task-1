@@ -1,0 +1,35 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.audio-container, .video-container {
+  width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+audio, video {
+  width: 100%;
+  height: auto;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+/* 
+How it works:
+
+1. We create two containers (<div class="audio-container"> and <div class="video-container">) to hold the audio and video elements.
+2. We style the containers using CSS to set their width, margin, padding, border, and box shadow.
+3. We style the audio and video elements using CSS to set their width and height.
+
+Benefits:
+
+1. Responsive design: The audio and video elements will resize to fit the containers.
+2. Customizable: You can customize the appearance of the audio and video elements using CSS.
+3. Easy to use: Simply add the audio and video code and CSS styles to your HTML document. */

@@ -1,0 +1,84 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+/* Section Styling */
+section {
+  margin: 50px 0;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  margin: 20px 0;
+}
+
+ul li {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+/* Project Section */
+.project {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+/* Contact Section */
+#contact a {
+  color: #333;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}

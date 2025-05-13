@@ -1,0 +1,101 @@
+What is HTML?
+HTML is a language used to create websites and webpages. It's like a blueprint that tells the web browser how to display the website.
+
+Why is HTML important?
+1. Builds websites: HTML is necessary for creating websites.
+2. Makes content look good: HTML helps format text, images, and videos.
+3. Helps search engines: HTML helps search engines understand website content.
+4. Makes websites accessible: HTML ensures websites are usable by everyone.
+5. Works on all devices: HTML allows websites to work on different devices and browsers.
+
+Think of HTML like building a house:
+
+- HTML is the foundation and structure.
+- CSS (another language) is the interior design and decoration.
+- JavaScript (another language) is the electricity and plumbing.
+
+HTML is the starting point, and it's essential for creating a strong and functional website!
+basic html structure: DOCTYPE is case-insensitive
+<!DOCTYPE>:Declaration
+<html>
+<head>
+ <title>Document</title>
+</head>
+<body>
+  <h1>content</h1>
+</body>
+</html>:these all are elements
+
+html tags: heading tags(<h1>,<h2>,<h3>,<h4>,<h5>,<h6>),paragraph tags(<p>),link tags(<a>)
+1.these are used for to define the structure and content of a webpage.Eg:heading tags,paragrapgh tags,link tags.
+
+Attributes:id,class,style,href,src
+1.Html attributres provide additional information about an element.examples include the id attribute for unique identification,the class attribute for styling and the href attribute for links.
+
+semantic html:<header>,<nav>,<main>,<section>,<footer>
+1.semantic html uses meaningful element names to define the structure and content of a webpage.examples include the <header>,<nav>,<main>,<section> and <footer> elements.
+ 
+forms:<form>,<input>,<textarea>,<select>,<button>
+1.html forms are used to collect user input.the <form> elements define the form ,while the <input>,<textarea>,<select> and <button> elements define the form fields and buttons.
+
+
+
+
+
+
+
+CSS Topics:
+
+What is CSS?
+CSS is like a costume for your website. It makes it look pretty and stylish.
+
+Why do we need CSS?
+HTML is like the skeleton of your website. CSS adds the skin and makeup to make it look good.
+
+What can CSS do?
+- Change colors and fonts
+- Add spacing and margins
+- Create cool layouts and designs
+- Make things move and animate
+
+Why is CSS important?
+- Makes your website look professional
+- Helps people navigate and use your website
+- Makes your website work well on different devices
+
+Basic concepts:
+1. CSS Selectors: Element selectors, class selectors, id selectors, attribute selectors
+
+Answer: CSS selectors are used to target specific elements or groups of elements on a web page. Examples include element selectors (e.g., p), class selectors (e.g., .class), id selectors (e.g., #id), and attribute selectors (e.g., [attribute]).
+
+2. CSS Properties: color, background-color, font-size, font-family, margin, padding
+
+Answer: CSS properties are used to define the styles applied to an element or group of elements. Examples include color, background-color, font-size, font-family, margin, and padding.
+
+3. CSS Box Model: content, padding, border, margin
+
+Answer: The CSS box model defines the structure of an element's box. The box model includes the content area, padding area, border area, and margin area.
+
+4. CSS Layout: display, position, float, clear
+
+Answer: CSS layout properties are used to define the layout of elements on a web page. Examples include the display property (e.g., block, inline, flex), the position property (e.g., static, relative, absolute), the float property (e.g., left, right, none), and the clear property (e.g., left, right, both).
+
+5. CSS Units: px, %, em, rem, vw, vh
+
+Answer: CSS units are used to define the measurements for CSS properties. Examples include px (pixels), % (percentage), em (font size), rem (root font size), vw (viewport width), and vh (viewport height).
+
+
+
+3. Create a basic form with input fields, textarea, and submit button.
+
+Answer: Create an HTML file with the following code:
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic Form</title>
+</head>
+<body>
+	<form>
+		<label for="name">

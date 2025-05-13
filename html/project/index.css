@@ -1,0 +1,162 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #fafafa;
+    }
+
+    /* Navbar */
+    .navbar {
+      background: white;
+      border-bottom: 1px solid #dbdbdb;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .navbar .logo {
+      font-size: 30px;
+      font-family: 'Grand Hotel', cursive;
+      color: #262626;
+    }
+
+    .navbar .icons img {
+      width: 25px;
+      margin-left: 20px;
+      cursor: pointer;
+    }
+
+    /* Layout */
+    .container {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .left-side, .right-side {
+      flex: 1;
+    }
+
+    .feed {
+      flex: 2;
+      max-width: 500px;
+    }
+
+    /* Stories */
+    .stories {
+      display: flex;
+      overflow-x: auto;
+      background: white;
+      padding: 10px;
+      border: 1px solid #dbdbdb;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+    .stories .story {
+      margin-right: 15px;
+      text-align: center;
+    }
+
+    .stories .story img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      border: 2px solid #ff8501;
+      padding: 2px;
+    }
+
+    /* Post */
+    .post {
+      background: white;
+      border: 1px solid #dbdbdb;
+      margin-bottom: 20px;
+      border-radius: 5px;
+    }
+
+    .post-header {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+    }
+
+    .post-header img {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    .post-img img {
+      width: 100%;
+      height: auto;
+    }
+
+    .post-icons {
+      padding: 10px;
+      display: flex;
+      gap: 10px;
+    }
+
+    .post-icons img {
+      width: 24px;
+      cursor: pointer;
+    }
+
+    .post-caption {
+      padding: 0 10px 10px 10px;
+    }
+
+    /* Right Side - Profile and Suggestions */
+    .right-side {
+      padding-left: 20px;
+      display: none;
+    }
+
+    @media (min-width: 1000px) {
+      .right-side {
+        display: block;
+      }
+    }
+
+    .profile {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .profile img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    .suggestions {
+      font-size: 14px;
+      color: #999;
+      margin-bottom: 10px;
+    }
+
+    .suggestion-user {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .suggestion-user img {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }

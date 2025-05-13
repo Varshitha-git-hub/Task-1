@@ -1,0 +1,57 @@
+HTML iframes
+HTML iframes are used to embed another HTML document within the current document. This allows you to display content from another source, such as a webpage or a video, within your own webpage.
+
+HTML iframe Element
+The iframe element is used to embed another HTML document within the current document. You can specify the source of the iframe using the src attribute.
+
+
+<iframe src="https://www.example.com" width="500" height="300"></iframe>
+
+
+Attributes of iframe Element
+1. src: Specifies the URL of the document to embed.
+2. width: Specifies the width of the iframe.
+3. height: Specifies the height of the iframe.
+4. frameborder: Specifies the border of the iframe (0 or 1).
+5. allowfullscreen: Specifies whether the iframe can be displayed in fullscreen mode.
+
+Example of iframe Element
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML iframe Element</title>
+</head>
+<body>
+  <h1>Embedding a Webpage using iframe</h1>
+  <iframe src="https://www.example.com" width="800" height="600" frameborder="0"></iframe>
+</body>
+</html>
+
+
+Real-time Examples
+1. Embedding a YouTube video: You can use iframes to embed YouTube videos on your webpage.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/video_id" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+
+2. Embedding a Google Map: You can use iframes to embed Google Maps on your webpage.
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.838434509374!2d-122.0840516846814!3d37.38534807929435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fba02425a6d1d%3A0x6c296fadef4ea49f!2sGoogleplex!5e0!3m2!1sen!2sin!4v1643723874095!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+Questions and Answers
+1. Q: What is the purpose of the iframe element?
+    - A: The iframe element is used to embed another HTML document within the current document.
+
+2. Q: How do you specify the source of an iframe?
+    - A: You can specify the source of an iframe using the src attribute.
+
+3. Q: What are the benefits of using iframes?
+    - A: Iframes allow you to embed content from another source, such as a webpage or a video, within your own webpage, which can enhance the user experience and provide additional functionality.
+
+4. Q: Can you style an iframe using CSS?
+    - A: Yes, you can style an iframe using CSS, such as setting its width, height, border, and other properties.
+
+5. Q: Are iframes secure?
+    - A: Iframes can pose security risks if not used properly, such as allowing malicious content to be embedded within your webpage. You should only embed content from trusted sources and use the sandbox attribute to restrict the iframe's capabilities.

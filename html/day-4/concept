@@ -1,0 +1,89 @@
+Here are the definitions and example codes for Day 4 as a fresher:
+
+HTML Concepts:
+1. HTML Styles:
+Definition: HTML styles are used to add visual effects to HTML elements.
+
+Example Code:
+
+<p style="color: blue; font-size: 24px;">This text is blue and 24px in size.</p>
+
+2. HTML Semantic Elements:
+Definition: HTML semantic elements are used to define the structure of a web page, making it easier for search engines and screen readers to understand.
+
+Example Code:
+
+<header>This is the header section</header>
+<nav>This is the navigation section</nav>
+<main>This is the main content section</main>
+<footer>This is the footer section</footer>
+
+CSS Concepts:
+1. CSS Introduction:
+Definition: CSS (Cascading Style Sheets) is a styling language used to control the layout and appearance of web pages.
+
+2. CSS Syntax:
+Definition: CSS syntax consists of selectors, properties, and values.
+
+Example Code:
+
+p {
+  color: blue; /* property: value */
+  font-size: 24px; /* property: value */
+}
+
+3. CSS Selectors:
+Universal Selector ()*
+Definition: The universal selector is used to select all elements on a web page.
+
+Example Code:
+
+* {
+  margin: 0; /* apply margin to all elements */
+  padding: 0; /* apply padding to all elements */
+}
+
+ID Selector (#id)
+Definition: The ID selector is used to select a specific element with a unique ID.
+
+Example Code:
+
+<p id="my-paragraph">This is a paragraph.</p>
+
+
+
+#my-paragraph {
+  color: red; /* apply color to element with ID "my-paragraph" */
+}
+
+Class Selector (.class)
+Definition: The class selector is used to select elements with a specific class.
+
+Example Code:
+
+<p class="my-class">This is a paragraph.</p>
+<p class="my-class">This is another paragraph.</p>
+
+
+
+.my-class {
+  color: green; /* apply color to elements with class "my-class" */
+}
+
+
+
+HTML Q&A:
+1. *Q: What is the purpose of the <style> attribute in HTML?*
+A: The <style> attribute is used to add styles to an HTML element.
+2. Q: What is the difference between HTML semantic elements and non-semantic elements?
+A: HTML semantic elements provide meaning to the structure of a web page, while non-semantic elements do not.
+3. Q: What is an example of an HTML semantic element?
+A: The <header> element is an example of an HTML semantic element.
+
+CSS Q&A:
+1. Q: What is the purpose of CSS?
+A: CSS is used to control the layout and appearance of web pages.
+2. Q: What is the basic syntax of CSS?
+A: The basic syntax of CSS consists of selectors, properties, and values.
+3. *Q: What is the difference between the universal selector (*) and the ID selector (#id)?*
+A: The universal selector (*) selects all elements on a web page, while the ID selector (#id) selects a specific element with a unique ID.
