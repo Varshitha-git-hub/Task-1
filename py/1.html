@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Programming Concepts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 5px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: monospace;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Python Programming Concepts</h1>
+</header>
+
+<main>
+    <section>
+        <h2>Python Intro</h2>
+        <p><strong>Definition:</strong> Python is a high-level, interpreted, and general-purpose programming language.</p>
+        <pre><code>print("Hello, Python!")</code></pre>
+    </section>
+
+    <section>
+        <h2>Python Get Started</h2>
+        <p><strong>Definition:</strong> To run Python programs, install Python and use an IDE or text editor like VS Code or PyCharm.</p>
+    </section>
+
+    <section>
+        <h2>Python Syntax</h2>
+        <p><strong>Definition:</strong> Python syntax is simple and easy to understand. Code blocks are defined by indentation.</p>
+        <pre><code>x = 10
+if x > 5:
+    print("Greater than 5")</code></pre>
+    </section>
+
+    <section>
+        <h2>Python Comments</h2>
+        <p><strong>Definition:</strong> Comments help explain code and are ignored during execution.</p>
+        <pre><code># This is a comment
+print("Hello, world!")</code></pre>
+    </section>
+
+    <section>
+        <h2>Python Variables</h2>
+        <p><strong>Definition:</strong> Variables store data.</p>
+        <pre><code>name = "John"
+age = 25
+print(name, age)</code></pre>
+    </section>
+
+    <section>
+        <h2>Python Data Types</h2>
+        <p><strong>Definition:</strong> Python supports various data types like int, float, string, list, tuple, etc.</p>
+        <pre><code>x = 10  # int
+y = 10.5  # float
+name = "Alice"  # string</code></pre>
+    </section>
+
+    <section>
+        <h2>Python Numbers</h2>
+        <p><strong>Definition:</strong> Python supports numbers including integers, floats, and complex numbers.</p>
+        <pre><code>a = 5       # int
+b = 5.7     # float
+c = 3 + 4j  # complex</code></pre>
+    </section>
+
+    <section>
+        <h2>Python Casting</h2>
+        <p><strong>Definition:</strong> Casting is the process of converting one data type to another.</p>
+        <pre><code>a = "10"
+b = int(a)  # Convert string to integer
+print(b)</code></pre>
+    </section>
+
+    <section>
+        <h2>Python Strings</h2>
+        <p><strong>Definition:</strong> Strings are sequences of characters enclosed in single or double quotes.</p>
+        <pre><code>greeting = "Hello"
+print(greeting)</code></pre>
+    </section>
+
+    <section>
+        <h2>Python Booleans</h2>
+        <p><strong>Definition:</strong> Booleans represent either True or False values.</p>
+        <pre><code>is_active = True
+is_logged_in = False</code></pre>
+    </section>
+
+    <section>
+        <h2>Python Operators</h2>
+        <p><strong>Definition:</strong> Operators are used to perform operations on variables and values.</p>
+        <pre><code>a = 10
+b = 5
+print(a + b)  # Addition</code></pre>
+    </section>
+
+    <section>
+        <h2>Python Lists</h2>
+        <p><strong>Definition:</strong> Lists are mutable collections of ordered items.</p>
+        <pre><code>fruits = ["apple", "banana", "cherry"]
+print(fruits[0])  # Access first item</code></pre>
+    </section>
+
+    <section>
+        <h2>Python Tuples</h2>
+        <p><strong>Definition:</strong> Tuples are immutable collections of ordered items.</p>
+        <pre><code>coordinates = (10, 20)
+print(coordinates[1])  # Access second item</code></pre>
+    </section>
+
+    <section>
+        <h2>Python Sets</h2>
+        <p><strong>Definition:</strong> Sets are unordered collections of unique items.</p>
+        <pre><code>colors = {"red", "green", "blue"}
+print(colors)</code></pre>
+    </section>
+
+    <section>
+        <h2>Python Dictionaries</h2>
+        <p><strong>Definition:</strong> Dictionaries store key-value pairs.</p>
+        <pre><code>person = {"name": "John", "age": 30}
+print(person["name"])</code></pre>
+    </section>
+
+    <section>
+        <h2>Python If...Else</h2>
+        <p><strong>Definition:</strong> Conditional statements used for decision making.</p>
+        <pre><code>x = 10
+if x > 5:
+    print("Greater than 5")
+else:
+    print("Less than or equal to 5")</code></pre>
+    </section>
+
+    <section>
+        <h2>Python Match</h2>
+        <p><strong>Definition:</strong> Pattern matching introduced in Python 3.10.</p>
+        <pre><code>match x:
+    case 1:
+        print("One")
+    case _:
+        print("Other")</code></pre>
+    </section>
+
+    <section>
+        <h2>Python While Loops</h2>
+        <p><strong>Definition:</strong> A `while` loop runs as long as the condition is true.</p>
+        <pre><code>x = 0
+while x < 5:
+    print(x)
+    x += 1</code></pre>
+    </section>
+
+    <section>
+        <h2>Python For Loops</h2>
+        <p><strong>Definition:</strong> A `for` loop iterates over a sequence.</p>
+        <pre><code>for fruit in ["apple", "banana", "cherry"]:
+    print(fruit)</code></pre>
+    </section>
+
+    <section>
+        <h2>Python Functions</h2>
+        <p><strong>Definition:</strong> Functions are reusable blocks of code.</p>
+        <pre><code>def greet(name):
+    print("Hello " + name)
+
+greet("Alice")</code></pre>
+    </section>
+
+    <section>
+        <h2>Python Lambda</h2>
+        <p><strong>Definition:</strong> A lambda function is an anonymous function.</p>
+        <pre><code>square = lambda x: x * x
+print(square(5))</code></pre>
+    </section>
+
+    <section>
+        <h2>Python Arrays</h2>
+        <p><strong>Definition:</strong> Arrays are more efficient for numerical data than lists.</p>
+        <pre><code>from array import array
+arr = array('i', [1, 2, 3])</code></pre>
+    </section>
+
+    <section>
+        <h2>Python Classes/Objects</h2>
+        <p><strong>Definition:</strong> Classes are blueprints for creating objects.</p>
+        <pre><code>class Dog:
+    def __init__(self, name):
+        self.name = name
+
+dog = Dog("Buddy")
+print(dog.name)</code></pre>
+    </section>
+
+    <section>
+        <h2>Python Inheritance</h2>
+        <p><strong>Definition:</strong> Inheritance allows one class to inherit from another.</p>
+        <pre><code>class Animal:
+    def sound(self):
+        print("Animal sound")
+
+class Dog(Animal):
+    def sound(self):
+        print("Bark")
+
+d = Dog()
+d.sound()</code></pre>
+    </section>
+
+    <section>
+        <h2>Python Iterators</h2>
+        <p><strong>Definition:</strong> Iterators are objects that can be iterated over.</p>
+        <pre><code>numbers = [1, 2, 3]
+iter_numbers = iter(numbers)
+print(next(iter_numbers))</code></pre>
+    </section>
+
+    <section>
+        <h2>Python Polymorphism</h2>
+        <p><strong>Definition:</strong> Polymorphism allows different classes to share a common interface.</p>
+        <pre><code>class Cat:
+    def sound(self):
+        return "Meow"
+
+class Dog:
+    def sound(self):
+        return "Bark"
+
+def make_sound(animal):
+    print(animal.sound())
+
+make_sound(Cat())  # Meow
+make_sound(Dog())  # Bark</code></pre>
+    </section>
+
+    <section>
+        <h2>Python Scope</h2>
+        <p><strong>Definition:</strong> Scope refers to the visibility of variables.</p>
+        <pre><code>def my_function():
+    x = 10  # Local scope
+    print(x)
+
+my_function()</code></pre>
+    </section>
+
+    <section>
+        <h2>Python Modules</h2>
+        <p><strong>Definition:</strong> Modules are Python files that contain functions, variables, and classes.</p>
+        <pre><code>import math
+print(math.sqrt(16))</code></pre>
+    </section>
+
+    <section>
+        <h2>Python Dates</h2>
+        <p><strong>Definition:</strong> The `datetime` module helps to handle date and time.</p>
+        <pre><code>import
